@@ -1,0 +1,23 @@
+{
+  "name": "billsplit-backend",
+  "version": "1.0.0",
+  "description": "An app that splits your bills with convenience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvoththebloodless/Billsplit-Backend.git"
+  },
+  "author": "Gourav Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvoththebloodless/Billsplit-Backend/issues"
+  },
+  "homepage": "https://github.com/kvoththebloodless/Billsplit-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
