@@ -1,0 +1,14 @@
+version: "3"
+services:
+  backendapp:
+    container_name: billsplitbackendcontainer
+    image: node:10
+    user: node
+    working_dir: "/app"
+    ports:
+    - "3000:3000"
+    volumes:
+    - ./:/app
+    command: ["npm","install"]  
+    command: "npx pm2 start ecosystem.config.js --no-daemon"
+ 
