@@ -8,7 +8,6 @@ services:
     ports:
     - "3000:3000"
     volumes:
-    - ./:/app
-    command: ["npm","install"]  
-    command: "npx pm2 start ecosystem.config.js --no-daemon"
+    - ./:/app  
+    command: "npm pm2 start ecosystem.config.js --no-daemon"
  
